@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <title>Cafe Kamila</title>
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a href="#" class="navbar-brand fw-bold">cafe kamila</a>
+
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navMenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navMenu">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="#menu-section">menu</a>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#prices">prices</a>
+    
+    <li class="nav-item">
+      <a class="nav-link" href="#about">about</a>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+    <!-- nav-item ham nav-link klasslarin payadalangan halda tagi eki silteme qosin -->
+  </ul>
+</div>
+    
+
+
+  <!-- 2. CAROUSEL -->
+   <div id="menuCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://www.foodandwine.com/thmb/iJw7N_NfcPpd-EB8rpYbzrkSFIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tomato-mozzarella-pizza-FT-RECIPE0725-e7244e979c504188a049623668c15b2e.jpg" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Pizza</h5></div>  <!-- ← ozgert -->
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://recipes.av.ru//media/recipes/100721_picture_VUGpcL3.jpg" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Ramyon</h5></div>   <!-- ← ozgert -->
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://yujinizakaya.com.sg/wp-content/uploads/2025/06/japanese-california-sushi-roll-recipe-1749130724.jpg" class="d-block w-100" style="aspect-ratio:16/9; object-fit:cover" height="600" alt="photo">
+      <div class="carousel-caption"><h5>Sushi</h5></div> <!-- ← ozgert -->
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" data-bs-target="#menuCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span></button>
+  <button class="carousel-control-next" data-bs-target="#menuCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span></button>
+</div>
+  <!-- 3. HERO -->
+
+<section class="bg-dark text-white text-center py-5">  
+  <div class="container">
+    <h1 class="display-4 fw-bold mb-3"> Cafe Kamila</h1>     
+    <p  class="lead text-light mb-4">Jurekke jaqin dam!</p>  
+    <a class="btn btn-warning btn-lg px-5" href="#menu-section"></a>
+  </div>
+</section>
+
+
+
+  <!-- 4. ALERT -->
+
+<div class="container mt-4">
+    <div class="alert alert-warning alert-dismissible fade show">Damli coffe,mazali desertler ham jilli keypiyat-hammesi bir jerde.Bizge kelin!
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+
+    </div>
+</div>
+  
+<section class="py-5 bg-light"   id="menu-section">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-4">Bizdin menu</h2>  
+    <div class="row g-4">
+      <div class="col-12 col-md-4">
+  <div class="card h-100 shadow-sm">
+
+    <img src="https://wok2go.com.ua/wp-content/uploads/2025/07/sup-ramen-s-moreproductami-recept.jpg"
+         class="card-img-top object-fit-cover"
+         style="height:180px"
+         alt="sushi">             
+
+    <div class="card-body">
+
+      <!-- awqat ati + bahasi bir qatarda -->
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="card-title mb-0">Ramyon</h5>        <!-- ← awqat ati -->
+        <span class="badge bg-warning text-dark">25 000 sum</span>  
+      </div>
+
+      <!-- qosimsha badge (shart emes) -->
+      <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+
+      <!-- sipatlamasi -->
+      <p class="card-text text-muted">
+           Ramyon Yapon tagami bolip esaplanadi.       
+      </p>
+
+      <!-- buyirtpa knopkasi -->
+      <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+
+    </div>  <!-- card-body aqiri -->
+  </div>  <!-- kartochka aqiri -->
+</div>  <!-- bagana aqiri -->
+
+<div class="col-12 col-md-4">
+  <div class="card h-100 shadow-sm">
+
+    <img src="https://www.foodandwine.com/thmb/cUck29eCdcIEjx_r5Q5ReugKoNM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Fraiser-cake-FT-RECIPES0624-e9972b38ccb54d3ca8edbbb9a5bb1642.jpeg"
+         class="card-img-top object-fit-cover"
+         style="height:180px"
+         alt="cake">             <!-- ← ozgert: awqat ati -->
+
+    <div class="card-body">
+
+      <!-- awqat ati + bahasi bir qatarda -->
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="card-title mb-0">Cake</h5>        <!-- ← awqat ati -->
+        <span class="badge bg-warning text-dark">25 000 sum</span>  <!-- ← bahasi -->
+      </div>
+
+      <!-- qosimsha badge (shart emes) -->
+      <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+
+      <!-- sipatlamasi -->
+      <p class="card-text text-muted">
+          Cake bul mazali zat bolip esaplanadi.
+      </p>
+
+      <!-- buyirtpa knopkasi -->
+      <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+
+    </div>  <!-- card-body aqiri -->
+  </div>  <!-- kartochka aqiri -->
+</div>  <!-- bagana aqiri -->
+<div class="col-12 col-md-4">
+  <div class="card h-100 shadow-sm">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-SU9u7pqWZaw008hCWz0noS2iOk-Z_q6H4A&s"
+         class="card-img-top object-fit-cover"
+         style="height:180px"
+         alt="cake">             <!-- ← ozgert: awqat ati -->
+
+    <div class="card-body">
+
+      <!-- awqat ati + bahasi bir qatarda -->
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="card-title mb-0">Sushi</h5>        <!-- ← awqat ati -->
+        <span class="badge bg-warning text-dark">25 000 sum</span>  <!-- ← bahasi -->
+      </div>
+
+      <!-- qosimsha badge (shart emes) -->
+      <span class="badge bg-danger mb-2">Hit</span>                <!-- ← yamasa qatardi oshirip taslan -->
+
+      <!-- sipatlamasi -->
+      <p class="card-text text-muted">
+      Sushi Yapon tagami bolip esaplanadi. 
+      </p>
+
+      <!-- buyirtpa knopkasi -->
+      <button class="btn btn-outline-dark btn-sm w-100 mt-2 btn-order">Order</button>
+
+    </div>  <!-- card-body aqiri -->
+  </div>  <!-- kartochka aqiri -->
+</div>  <!-- bagana aqiri -->
+
+ 
+    </div>
+  </div>
+</section>
+ 
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 8. FOOTER -->
+<section class="py-5"  id="prices">   
+  <div class="container">
+    <h2 class="text-center">hamme bahalar</h2>        
+    <div class="table-responsive">      
+      <table class="table table-bordered table-hover table-striped">
+
+        <thead class="table-dark">
+          <tr>
+            <th>Awqat</th>
+            <th>Kategoriyasi</th>
+            <th>Bahasi</th>
+              <th>Status</th>
+          </tr>
+          </thead>
+          <tbody>
+        <tr>
+        </thead>
+        
+        
+        <tbody>
+    
+      <tr>
+         <td>Pizza</td>
+         <td>Fast food</td>
+         <td>25 000</td>
+      
+            <td><span class="badge bg-success">in stock</span></td>
+          </tr>
+      <tr>
+         <td>sushi</td>
+         <td>fast food</td>
+         <td>30 000</td>
+      
+            <td><span class="badge bg-success">in stock</span></td>
+          </tr>
+      <tr>
+         <td>ramyon</td>
+         <td>fast food</td>
+         <td>15 000</td>
+      
+            <td><span class="badge bg-success">in stock</span></td>
+          </tr>
+      <tr>
+         <td>cake</td>
+         <td>desert</td>
+         <td>40 000</td>
+      
+            <td><span class="badge bg-success">in stock</span></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light">      
+  <div class="container">        
+    <h2 class="text-center fw-bold mb-4">Biz haqqinda</h2>        
+    <div class="row justify-content-center col-12 col-md-6 text-center">
+      <div>  
+        <p class="text-muted mb-3">Har bir piyolasi mehr va ehtiros bilan qaynaydigan shinam qahvaxonamizga xush kelibsiz.</p>
+        <p class="text-muted">Yangi qovurilgan qahvaning ifori bilan to‘ldirilgan iliq atmosferadan bahramand bo‘lish uchun ichkariga kiring.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">   
+  <div class="container">    
+    <p>Cafe Kamila</p>
+    <p>Taxtakopir</p>
+    <p>12:00</p>
+  </div>
+</footer>
+
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index:9999">
+  <div id="orderToast" class="toast align-items-center text-white bg-success">
+    <div class="d-flex">
+      <div class="toast-body">
+        ✅ Buyirtpa qabillandi! 15 minut kuting.  <!-- ← tekstti ozgert -->
+      </div>
+      <button class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.btn-order').forEach(btn => {
+    btn.addEventListener('click', () => {
+      new bootstrap.Toast(document.getElementById('orderToast')).show();
+    });
+  });
+</script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>  
+</html>
+
